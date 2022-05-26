@@ -1,0 +1,24 @@
+.Menu {
+    margin-top: 7%;
+	display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    margin-left: 50%;
+    z-index:  1000;
+}
+
+.Menu > a {
+    margin-top: 0px;
+}
+
+.Menu > .active {
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+    margin: 15px 0;
+}

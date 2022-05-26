@@ -1,0 +1,43 @@
+/* .VacationCard .NewBox  { */
+.VacationCard {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  text-align: left;
+  overflow: auto;
+  width: 275px;
+  height: 520px;
+  margin: 5px;
+  overflow: auto;
+  text-align: center;
+}
+.VacationCard > .Avatar {
+  margin-left: 5px;
+}
+
+.VacationCard img, .CardMedia {
+    vertical-align: middle;
+}
+
+.VacationCard img {
+    width: 200px;
+    height: 200px; 
+    align-items: center;
+   
+}
+
+.VacationCard > .CardHeader {
+    margin-left: auto;
+}
+
+.VacationCard .Typography {
+  font-size: 14px;
+  width: 228px;
+  height: 80px;
+  
+}
